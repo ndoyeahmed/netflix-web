@@ -1,0 +1,81 @@
+.login-container {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("/assets/images/Backgorund.png");
+}
+
+.card {
+  background-color: black;
+  opacity: .8;
+  color: white !important;
+  padding: 8%;
+}
+
+.header {
+  // padding: 1% 2%;
+  margin-bottom: 2%;
+}
+
+.logo {
+  width: 15%;
+  height: 15vh;
+}
+
+.form-control {
+  background-color: #424242;
+  border: none;
+  border-radius: 5px;
+}
+
+.op1 {
+  opacity: none;
+}
+
+.myfs {
+  font-size: .8rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  text-align: end;
+}
+
+.btn-danger {
+  background-color: #da0000;
+  color: white;
+  padding: 4% 0;
+}
+
+.description-register {
+  color: #ababab;
+  font-size: 1.2rem;
+}
+
+.register {
+  color: white;
+  text-decoration: none;
+}
+
+.description-captcha {
+  color: #ababab;
+  font-size: .95rem;
+}
+
+.read-more {
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 5%;
+  background-color: black;
+}
+
+.footer-text {
+  color: #ababab;
+}
+
+.cadre {
+  border: 1px solid #ababab;
+  padding: 1% 3%;
+}

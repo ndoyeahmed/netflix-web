@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './authentication/components/login/login.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
