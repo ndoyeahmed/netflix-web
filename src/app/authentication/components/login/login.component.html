@@ -9,7 +9,7 @@
         <div class="card">
 
           <div class="card-body">
-            <form action="">
+            <form [formGroup]="form" (submit)="login()">
               <div class="row">
                 <div class="col-10 offset-1">
                   <h2 class="card-title">
@@ -17,15 +17,15 @@
                   </h2>
                 </div>
                 <div class="col-10 offset-1 mt-4">
-                  <input class="form-control form-control-lg" type="text" placeholder="Email ou numéro téléphone" >
+                  <input class="form-control form-control-lg" type="text" placeholder="Email ou numéro téléphone" formControlName="login">
                 </div>
                 <div class="col-10 offset-1 mt-3">
-                  <input class="form-control form-control-lg" type="text" placeholder="Mot de passe" >
+                  <input class="form-control form-control-lg" type="password" placeholder="Mot de passe" formControlName="password">
                 </div>
               </div>
               <div class="row mt-5">
                 <div class="d-grid">
-                  <button class="btn btn-danger">
+                  <button class="btn btn-danger" type="submit" [disabled]="!form.valid">
                     Se connecter
                   </button>
                 </div>

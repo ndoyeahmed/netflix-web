@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './components/home/home.component';
 import { ContentRoutingModule } from './content-routing.module';
 import { SharedModule } from '../shared/shared.module';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 
 
@@ -10,7 +11,9 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [HomeComponent],
   imports: [
     ContentRoutingModule,
-    SharedModule
+    SharedModule,
+    IvyCarouselModule
+
   ]
 })
 export class ContentModule { }
