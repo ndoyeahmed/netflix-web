@@ -19,9 +19,11 @@
     "@angular/platform-browser": "~9.0.3",
     "@angular/platform-browser-dynamic": "~9.0.3",
     "@angular/router": "~9.0.3",
+    "@types/node": "^18.15.11",
     "angular-responsive-carousel": "^2.1.2",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.5",
+    "ng-block-ui": "^3.0.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
